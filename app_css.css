@@ -145,8 +145,6 @@ body {
     width: 50%;
     min-width: 30vh;
 }
-#addBlog_div textarea {
-}
 
 form {
     padding: 5vh 5vh 5vh 5vh;
