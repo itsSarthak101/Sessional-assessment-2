@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration:none;
+    list-style:none;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.navbar {
+    padding: 0px 7vh 0px 7vh;
+    background-color: #063970;
+}
+.navbar a i {
+    display: none;
+    color: aliceblue;
+    font-size: 30px;
+    background-color: #063970;
+}
+.navbar a i:hover {
+    color: #80DBAC;
+}
+
+/* Logo */
+.navbar-brand {
+    font-family: 'Playball', cursive;
+    font-size: 35px;
+    color: #80DBAC;
+    font-weight: 600;
+}
+.navbar-brand:hover {
+    color: #31AF6E;
+}
+
+/* NavMenu */
+#navmenu ul {
+    padding: 0px 0px 0px 0px;
+    margin-right: 30px;
+}
+#navmenu ul li {
+    padding: 0px 5px 0px 5px;
+}
+
+/* Menu Buttons */
+#navmenu ul li a {
+    color: aliceblue;
+}
+#navmenu ul li a:hover {
+    color: #80DBAC;
+}
+
+/* Search */
+#search_bar {
+    font-weight: 500;
+}
+#search_bar:focus {
+    background-color: #BFEDD5;
+    color: #063970;
+}
+#search_btn {
+    margin-left: 3px;
+    background-color: #0A63C2;
+    color: aliceblue;
+}
+#search_btn:hover {
+    background-color: #80DBAC;
+    color: #063970;
+}
+
+/* Footer */
+#footer {
+    margin-top: 10vh;
+    background-color: #063970;
+}
+#footer_container {
+    padding: 5vh 0px 5vh 0px;
+}
+#footer_container a {
+    margin: 5px;
+    border-radius: 50%;
+    border-color: #80DBAC;
+    padding: 10px;
+    color: #80DBAC;
+}
+#footer_container a i {
+    font-size: 20px;
+}
