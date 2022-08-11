@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -114,6 +117,69 @@ body {
     text-align: center;
     color: #063970;
     padding-top: 10px;
+}
+
+#addBlog_div {
+    margin-top: 5vh;
+    padding: 0;
+    background-color: #D8E9FD;
+    padding-bottom: 20px;
+    box-shadow: 0 1px 13px 0 rgba(0, 0, 0, 0.2);
+}
+#addBlog_div h1 {
+    text-align: center;
+    background-color: #063970;
+    width: 100%;
+    color: #80DBAC;
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    padding: 15px 0px 15px 0px;
+    box-shadow: 0 1px 13px 0 rgba(0, 0, 0, 0.2);
+}
+#addBlog_div h3 {
+    color: #063970;
+}
+#addBlog_div input {
+    font-weight: 500;
+    color: #063970;
+    width: 50%;
+    min-width: 30vh;
+}
+#addBlog_div textarea {
+}
+
+form {
+    padding: 5vh 5vh 5vh 5vh;
+}
+.form_label {
+    font-size: 40px;
+    color: #063970;
+    font-weight: 500;
+
+}
+textarea {
+    margin-bottom: 20px;
+    max-width: 100vh;
+    min-width: 30vh;
+}
+#username:focus {
+    background-color: #BFEDD5;
+    color: #063970;
+}
+#inputblog:focus {
+    background-color: #BFEDD5;
+    height: 20vh;
+    color: #063970;
+}
+
+#post_blog {
+    margin-left: 3px;
+    background-color: #0A63C2;
+    color: aliceblue;
+}
+#post_blog:hover {
+    background-color: #80DBAC;
+    color: #063970;
 }
 
 /* Footer */

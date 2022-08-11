@@ -10,3 +10,12 @@ function getPhotos() {
         console.log("Error: " + errorThrown)
     })
 }
+
+$("#search_btn").click(getPhotos);
+
+// Blog Append
+$("#post_blogt").click(function() {
+    var user = $("#username").val();
+    var inpBlog = $("#inputblog").val();
+    $("#blog-col").append(`<div id="bodyBlog"></div><div id="blogUser">${user}</div><div id="blogContent">${inpBlog}</div></div>`)
+});
